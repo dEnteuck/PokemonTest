@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 717f7e015a0478847b57c2d4c7dfba03
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 538
+        width: 514
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c7585cbd590d649993c18b489988a3
+      internalID: -47397956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 538
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dc53dd0bdbec54d8fae3711c9482ec
+      internalID: 1365422044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 256
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d7ecfd9b0f55f408af1afdeb988703
+      internalID: -1556293052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 363
+        width: 255
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73809869af7084b4b9d6bcfe22ca14fc
+      internalID: 924980620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 256
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7a5c8bd30d8354681b2889efcf6380
+      internalID: -2086197488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 170
+        width: 255
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2d0de25159a2c4c915506d5d2bc83f
+      internalID: -473785557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 284
+        width: 127
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7624809f9f7149e4bb9bb8d09091761d
+      internalID: -1401043740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 284
+        width: 127
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13bf5c59a332684aa44d5b26fc3de39
+      internalID: 709561266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 235
+        width: 127
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e970d8e5ad9320944b55e29485a558f0
+      internalID: 970917088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 235
+        width: 128
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72522eeca524f3c4eb9573e6817b338d
+      internalID: -380468753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_10
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 956
+        width: 83
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32a163ab88d8dd48b0132db1808bc3b
+      internalID: 780009080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_11
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 950
+        width: 69
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4427c42da8c9b5c499e3de49fa02a220
+      internalID: -1278783908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_12
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 952
+        width: 90
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1264f03fcb01ab744851ae277a35e56a
+      internalID: 1900347810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_0: -47397956
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_1: 1365422044
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_10: 780009080
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_11: -1278783908
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_12: 1900347810
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_2: -1556293052
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_3: 924980620
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_4: -2086197488
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_5: -473785557
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_6: -1401043740
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_7: 709561266
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_8: 970917088
+      black2_lower_screen_battle_system_rip___extra_by_pikachumazzinga_d55ba2t_9: -380468753
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

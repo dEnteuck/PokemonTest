@@ -1,0 +1,2838 @@
+fileFormatVersion: 2
+guid: fc377502ed3008c458a74eb1a12c6efd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: battleback
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 512
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ef33c023b23134897f41d75f6d4546
+      internalID: 274204799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catch2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 510
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db35324c83895344b9b96adee94938fa
+      internalID: -571362656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleface
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8411c04d3df4243b296d222d5e3220
+      internalID: -972312106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: head
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ce8e75c43428942b511a8fac8a5b8b
+      internalID: -275184716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catch1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 512
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c9c7f80590e9246b7e3f3b641d9b1c
+      internalID: 831748748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catch3
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28518fc28acd1d544b08eddb8b5084db
+      internalID: -659113314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catch4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2d74782e029174ab6cf4b94d6c0d6c
+      internalID: 66996014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idledown
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d341792c5000d9944aba65a59bfd2320
+      internalID: -821661679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkdown1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68e187903b53054b8339f7db1134159
+      internalID: -1268016656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkdown2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898e78fb6c124b14fab288a8d41ef642
+      internalID: 2077713656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkdown3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a08e3d81fbcacb47b3d28ff56078482
+      internalID: 1960118458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_127
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9684a4767768f245a764405a98c0b6d
+      internalID: -1262551762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_129
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac23ac8ddf1fdc46825b20d235b29b3
+      internalID: 689494087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_131
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7674add4477f6a543a7dd33679472d86
+      internalID: -1892440649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_133
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c5619eab6b79b40a68422521324dd5
+      internalID: 2033963826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_135
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e707ddf5f3521704da65bf74e839f70e
+      internalID: -1864353530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_137
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb929a61f4355f14fa4367af291e4d27
+      internalID: 345156282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_139
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ad794c0db67d847bd6414c27125df0
+      internalID: 1350812771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_141
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bdbf1594d82fc46a121416f57051d8
+      internalID: -1332438918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_143
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddad05f57fceee6449f83a085eba6317
+      internalID: 24704287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_145
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8a2dfa06191b84bba545bce5c1d754
+      internalID: 1235928221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_147
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de48f4fa23428224b8c52107456721e5
+      internalID: 958440880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_149
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 458
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c5fcb5abdacc7488be7073e9732009
+      internalID: -25135468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_151
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 448
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27bd4a94853bb341bed550c66830f1a
+      internalID: -2122537826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_153
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 448
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed736fe72904c54ea66ef41fa3fc57c
+      internalID: -595056080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_155
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 448
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1fd8aed45f3fb418ec1ae692139ff2
+      internalID: -1494986641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battlefront
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8480ff29baa5914438f935afc8625218
+      internalID: -1169561768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_204
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09963043fd760b4b8a9c1f2e0ca1c81
+      internalID: 31515782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleleft
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21a29b3282c286459c2f777ad0aaa04
+      internalID: -1401929913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkleft1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5066d34f9a361614585cfe19b4e6ba10
+      internalID: 1230782882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkleft2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743dfc6cc1118fd4296a2821b2424ef4
+      internalID: 645823774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkleft3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0f369cdb5b8394ca9cd3bd27e7b1fd
+      internalID: -374202272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_219
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fb227dce81b3d4d967e26e86e40fb6
+      internalID: -641911938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_221
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3299b915ff4759b4a9d65649027b1a01
+      internalID: -1861426438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_223
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7313d8e23c949334b801306ea0967580
+      internalID: 1215049613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_225
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aac6ccc5809008478f1bfc17d505e6f
+      internalID: -1387947922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_227
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2930e8501b974824c9804f71aaf227ff
+      internalID: 32619533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_229
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88744d323c0ff844bdfa3f34e219882
+      internalID: 246252958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_231
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b9c12e3859fb147bade3d156adf2c6
+      internalID: -2084739601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_233
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597a45bba874d1d49a438047f90e3896
+      internalID: 1186299617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_235
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b847337b016fb6b4a8409250a31ece9b
+      internalID: -622418689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_237
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5753dc043b955174bba7f6a80a5bed0c
+      internalID: 1423393485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_239
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6058e3528a9abe948b76869d879f5db4
+      internalID: -1599387802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_241
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 416
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c93fc73569f32449b1b55d87fd2e691
+      internalID: 2079271567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleright
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142195bc5504c41479274fec2fc12273
+      internalID: 1737777937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607a207c42429d7428cf832205f45a9a
+      internalID: 402783280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa318f9e4962696489ed30d67f49e79e
+      internalID: 1605459737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkright3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2568b63aa07cc41b3ca0405fddf13a
+      internalID: 1741260253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_265
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406cf225b06c03f4e99cc57262d7025c
+      internalID: 1263887087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_267
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d539041496e38e49b726d7005fe7229
+      internalID: 323752072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_269
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e203d563398de754dbe068e416515877
+      internalID: -762381715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_271
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de37a2b50d80b024bae94fb9de7a6990
+      internalID: -1873365957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_273
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99694432d891bae478afd15a529a0382
+      internalID: 753403974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_275
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e18e77c4ea7944d9a475d3903fcec8
+      internalID: 1792319273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_277
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab42aaa5c03fe504da7d311eca9e7409
+      internalID: 1802077795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_279
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d928a1d4ba568248936d388fa17c77f
+      internalID: -2070896378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_281
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743d6e78ebdf2b54b8989338be1fead5
+      internalID: 1823308681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_283
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8893f96949247394a928a750e3def4ca
+      internalID: 498470880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_285
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89669bfefae3854883a4d949b212b48
+      internalID: 1353154366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_287
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 364
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd3596ae35f2e041b1390fd6ee3624b
+      internalID: 644580210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_289
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113c3463d816fb74a86655f94072dc34
+      internalID: -695059626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_293
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dd4ab262fca1541a4e760d6f95cabe
+      internalID: -1258004307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_297
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee02fba9ac6c1245972506f6deded04
+      internalID: -1255677229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_301
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09e56bb5a2c4af49a54ff1d4815aa45
+      internalID: -1430475681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idleup
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e243b9341a8069d439c6ae0b0086f3c3
+      internalID: -1734826568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15afd216ff5c6142b42b857e06461f3
+      internalID: 1984603765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f612a810f06b0814d9005cd3542a7ed7
+      internalID: 2143229672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24da21e48be8e642a6b7647b23197dd
+      internalID: 436731394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_355
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7712461574dc5c641b518214e7b58dd4
+      internalID: 1105483767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_357
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e043c67edf4e3ad40b0d566cdcb427e3
+      internalID: 1070804926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_359
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3121e2db007a3174a98b7225cef5e71b
+      internalID: 395355569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_361
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abb719166e98a742b96416b5c70eede
+      internalID: 1503582730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_363
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eddcf6cac008284ca289c585b74b35f
+      internalID: 1276673261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_365
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341d187bac7a91e4ca31749335572ad2
+      internalID: 1805540082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_367
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d2dc60ab8b12047aa6754b3fdfe3bc
+      internalID: -1689009289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_369
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7aec1d6f12b0841ae4b1154eb26e39
+      internalID: 2104046749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_371
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411c5cbf1469e8e40812c94cebe4dbcf
+      internalID: 942316211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_373
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10511882c7ae4264ca72e00030a129c7
+      internalID: -1623218594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_375
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9684e51a9109c42b79d9f2f92ded4c
+      internalID: -1202793603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_377
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 320
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1288966cfad3343bf2405150185c5a
+      internalID: -592869116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_379
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a262d042f15458046900add8bc06d292
+      internalID: -1806321784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_383
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0c698c2152b4549a4875a7d578e384
+      internalID: -1036537521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_387
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc0bab40783f87469f7a90048cbd172
+      internalID: -60237586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_391
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ef55c3b2b42584eb64ec1c62badc84
+      internalID: 1459637486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_395
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eb3218663195b48a359f4f939dcd2a
+      internalID: -649299350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_399
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdaed8ae97062f49b5232e924b9ca44
+      internalID: -1535650577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_403
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9341652d94341b6458ba5efe7f9dc152
+      internalID: -1354747118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_405
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 256
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9995f7643b0b3a74a9dddbc6c970ea89
+      internalID: 273605640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_409
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 257
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73b7d6deb5e4314fb68b9a3e23d2965
+      internalID: -1630042657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_411
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 256
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87528d6d1b2731d4f8891be1e993da9e
+      internalID: 1450765388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_426
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35aa2b2d47bfc04c83a58a88faebda3
+      internalID: 812547125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_436
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb621bb4f7bf1942a659f070b7e7ae7
+      internalID: 1296786717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_439
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 160
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2018339f8cbb5449b6f90d0199c954
+      internalID: -458149745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_440
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7e15dbbbbc0a44b95938b6e70d6faa
+      internalID: -757238018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_451
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 160
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72caf1cc258afa7438701993e341ffc6
+      internalID: 736484896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_459
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09b3058a64a3c849bdca413362b9ff6
+      internalID: -1864920226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_464
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d356f1de2523c1843ba59df9f0cefac7
+      internalID: -1890547389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_470
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11d9079e3387814a9b0c1608f04faea
+      internalID: 1072682611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_472
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 96
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2551dbcd7574e1b47aae69d75c67c2e7
+      internalID: 930752419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_479
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a06c5da128789408ededd7a86cbc94
+      internalID: 14084029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_489
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4181319ffd37983479a7f1b4c6492a11
+      internalID: -381431548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_501
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0698dc6e3a4ab04f90d29ab8d65f73a
+      internalID: -1772525188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_505
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffe6fa0ba4c1cd4580373f0e628f79b
+      internalID: 318012635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_510
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a479128d1400d47aece3bd1cbd194e
+      internalID: -1071594750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      battleback: 274204799
+      battleface: -972312106
+      battlefront: -1169561768
+      catch1: 831748748
+      catch2: -571362656
+      catch3: -659113314
+      catch4: 66996014
+      head: -275184716
+      idledown: -821661679
+      idleleft: -1401929913
+      idleright: 1737777937
+      idleup: -1734826568
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_0: -2091487182
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_1: -1939680874
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_10: -1012899325
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_100: 1308124621
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_101: -1794306031
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_102: -670199488
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_103: -1681366782
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_104: -1475610662
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_106: 1218966003
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_107: -482522968
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_108: -569504951
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_11: -1271393680
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_110: 100869792
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_111: 2065596049
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_112: -682442095
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_113: -1672925467
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_114: 452009485
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_115: 639621582
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_116: 1091685219
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_117: -395625370
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_118: 695525210
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_12: -441201319
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_120: -854420215
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_122: -2106993774
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_124: 1289044621
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_126: -1032103298
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_127: -1262551762
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_128: -1952509198
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_129: 689494087
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_13: -1256218619
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_130: 1018912165
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_131: -1892440649
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_132: -302109005
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_133: 2033963826
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_134: -1623715107
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_135: -1864353530
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_136: 578229426
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_137: 345156282
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_138: -769263834
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_139: 1350812771
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_14: 1390881829
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_140: -1370317214
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_141: -1332438918
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_142: 1273150173
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_143: 24704287
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_144: 1572350616
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_145: 1235928221
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_146: 1610087045
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_147: 958440880
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_148: -1076154037
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_149: -25135468
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_15: 113722736
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_150: -1788658397
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_151: -2122537826
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_152: -679048997
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_153: -595056080
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_154: 1560105829
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_155: -1494986641
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_156: 239744736
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_157: -2090284020
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_158: -1020905155
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_16: -545057823
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_160: 448415180
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_161: -113359991
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_162: -737851731
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_163: -335831763
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_164: 1261073448
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_165: 1636493895
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_166: -2012969806
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_167: 114768158
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_168: 302163198
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_169: 730298994
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_17: -1371908825
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_170: -1030319502
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_171: 1096925710
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_172: -1324263024
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_173: 580466278
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_174: 725794114
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_175: 744941125
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_176: -1176833017
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_177: -1147629034
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_178: -899960765
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_179: -2050898821
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_18: 1470662737
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_180: -25593763
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_181: -1314527100
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_182: -99768229
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_183: 1848746884
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_184: 2090504323
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_185: 537779501
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_186: -534613580
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_187: 552889125
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_188: -421502874
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_189: 274639816
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_19: 190277383
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_190: -981756555
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_191: -1700209269
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_192: 1261158704
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_193: -2039094230
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_194: -343185919
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_195: -1623648189
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_196: -97390307
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_197: 1881474783
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_198: 786789090
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_199: -911827321
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_2: 2011537731
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_20: -683499007
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_200: -1007167179
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_201: 1615225617
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_202: -634528938
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_203: 2125524312
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_204: 31515782
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_205: 917806842
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_206: -1485293995
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_207: -2004105352
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_208: 1370945589
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_209: 743122304
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_210: -1050316302
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_212: 686708225
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_214: 261445499
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_216: 1525820231
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_218: 1253974606
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_219: -641911938
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_22: -448378991
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_220: -460531300
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_221: -1861426438
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_222: 1192918861
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_223: 1215049613
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_224: 1363279071
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_225: -1387947922
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_226: 1758937600
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_227: 32619533
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_228: -1119043554
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_229: 246252958
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_23: -1267823733
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_230: 5595299
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_231: -2084739601
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_232: -631326348
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_233: 1186299617
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_234: 352900520
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_235: -622418689
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_236: -889484067
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_237: 1423393485
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_238: 1456397219
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_239: -1599387802
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_24: 1683590789
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_240: -111705354
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_241: 2079271567
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_242: 1269940980
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_243: 271889356
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_244: 513077564
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_245: 287855994
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_246: 1574333638
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_247: 1531322641
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_248: 1539429567
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_249: -1243413665
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_25: 501563566
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_250: -1605087183
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_251: 1950906435
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_252: 1132850941
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_253: -306538156
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_254: 1216171640
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_255: -2129464114
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_256: 320235821
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_258: 2050642798
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_26: -1656983182
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_260: -638086367
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_262: 483926009
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_264: 670775076
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_265: 1263887087
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_266: -1063651199
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_267: 323752072
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_268: -660140710
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_269: -762381715
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_27: -415297188
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_270: 1029544079
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_271: -1873365957
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_272: 954957117
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_273: 753403974
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_274: -1086656454
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_275: 1792319273
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_276: 379997365
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_277: 1802077795
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_278: 680138921
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_279: -2070896378
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_28: 1996893708
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_280: -1260539217
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_281: 1823308681
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_282: 1346724645
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_283: 498470880
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_284: 1570583434
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_285: 1353154366
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_286: -1084411384
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_287: 644580210
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_288: 553050570
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_289: -695059626
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_290: -1087275893
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_291: -819036351
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_292: -324444833
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_293: -1258004307
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_294: -846654303
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_295: -1560259099
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_296: 218136674
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_297: -1255677229
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_298: 615675488
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_299: 2138959514
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_3: -1324914703
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_30: -424573094
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_300: -1179690099
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_301: -1430475681
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_302: 1269659167
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_303: -853213121
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_304: 1492124833
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_305: -519563749
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_306: 931119338
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_307: -1311617067
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_308: -1951627734
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_309: -2146117185
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_31: -1069294638
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_310: -1321106264
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_311: 1934257863
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_312: -1749348868
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_313: 1409129578
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_314: 1912265463
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_315: 746606100
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_316: 1116113618
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_317: -1559739276
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_318: -1985497898
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_319: 451719454
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_32: -83333967
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_320: 1062877395
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_321: 421476852
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_322: -795852530
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_323: -1201637831
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_324: 2100620192
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_325: -1199304637
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_326: -1316328908
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_327: -1890815580
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_328: -120314733
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_329: -1809078734
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_33: -1908731942
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_330: -549309681
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_331: -1280908274
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_332: 1591477816
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_333: 262732655
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_334: 2061728098
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_335: 708390526
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_336: -1855205969
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_337: 1305635696
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_338: 1451722949
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_339: 90414751
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_34: -1487478369
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_340: 105494440
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_341: 342983425
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_342: 1424521597
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_343: -123954560
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_344: 632944192
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_345: -1547151408
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_346: -648449614
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_348: 297180614
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_35: 1185684085
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_350: -1532600645
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_352: 263886742
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_354: -2090298389
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_355: 1105483767
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_356: 1778975841
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_357: 1070804926
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_358: -241204009
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_359: 395355569
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_36: 627401969
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_360: -1449919319
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_361: 1503582730
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_362: 1243344034
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_363: 1276673261
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_364: 725643122
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_365: 1805540082
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_366: 417027083
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_367: -1689009289
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_368: -945754619
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_369: 2104046749
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_37: -1375114337
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_370: -2064599731
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_371: 942316211
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_372: 1508280753
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_373: -1623218594
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_374: 700244223
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_375: -1202793603
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_376: -1951854112
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_377: -592869116
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_378: 141106635
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_379: -1806321784
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_38: -893656659
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_380: -180060256
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_381: -472146007
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_382: -600784108
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_383: -1036537521
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_384: 273937429
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_385: -1685088309
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_386: 1543955550
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_387: -60237586
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_388: 1098034904
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_389: -974837350
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_39: 2037141803
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_390: 617649906
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_391: 1459637486
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_392: 1841314979
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_393: 722462436
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_394: 1402924090
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_395: -649299350
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_396: 2046502602
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_397: 1612081305
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_398: 1053700561
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_399: -1535650577
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_4: -1665150744
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_40: -1138828828
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_400: 75262440
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_401: 1108846536
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_402: 1746958985
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_403: -1354747118
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_404: 1345713311
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_405: 273605640
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_406: 600848991
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_407: 611393483
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_408: -1689623781
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_409: -1630042657
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_41: -560149975
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_410: 731687887
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_411: 1450765388
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_412: -489417169
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_413: 1926594302
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_414: 1222486255
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_415: -112658788
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_416: -955108630
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_417: -1239552480
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_418: -1229360180
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_419: -984747052
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_42: 2076270416
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_420: -456124251
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_421: -1846024650
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_422: -523472262
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_423: -1487598273
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_424: 1837684215
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_425: 741499397
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_426: 812547125
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_427: 244217959
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_428: 1086232852
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_429: -64049433
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_43: 1934128089
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_430: -1934381534
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_431: -1975773414
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_432: 634025230
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_433: -1614101006
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_434: -762276162
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_435: -1347372932
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_436: 1296786717
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_437: 180979816
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_438: -1790274330
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_439: -458149745
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_44: 301010622
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_440: -757238018
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_441: 1697901424
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_442: -1102924279
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_443: -1033465539
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_444: -1977385072
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_445: 1228176523
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_446: -1221350232
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_447: -39812228
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_448: -89207887
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_449: -2144032512
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_45: -1284665788
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_450: -1916915210
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_451: 736484896
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_452: 1508334526
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_453: 370493560
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_454: -1257109848
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_455: -1988524510
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_456: 218720973
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_457: 75905849
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_458: -162902994
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_459: -1864920226
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_46: 498986039
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_460: 1902388568
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_461: 2093700084
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_462: 262631515
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_463: -1690082604
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_464: -1890547389
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_465: 750911315
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_466: 816794456
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_467: 686246058
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_468: -307255673
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_469: 674924045
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_47: 1958213149
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_470: 1072682611
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_471: -2097036078
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_472: 930752419
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_473: -770239594
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_474: 1152482745
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_475: -1860239043
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_476: 1977111980
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_477: 680099250
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_478: -1019723915
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_479: 14084029
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_48: -1710247630
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_480: 188737135
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_481: 942577670
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_482: -584517642
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_483: 1887382823
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_484: -54354034
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_485: 211462941
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_486: 1219238585
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_487: -1504057781
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_488: -2143986124
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_489: -381431548
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_49: -929942288
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_490: 2128885526
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_491: -1687783224
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_492: 1862859151
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_493: -639512134
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_494: -1007988047
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_495: 880711646
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_496: 161829354
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_497: 93347657
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_498: 1440417241
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_499: 1155871134
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_5: -54454747
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_50: 1353623849
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_500: -1966777972
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_501: -1772525188
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_502: 2087454839
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_503: 499318532
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_504: 3749045
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_505: 318012635
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_506: 1456306977
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_507: -1056973308
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_508: 216695730
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_509: -1558460575
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_51: 1616105242
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_510: -1071594750
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_511: -1523402350
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_512: 1845428237
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_513: 20220714
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_52: -1369603981
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_54: -298065896
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_55: -1783249354
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_56: -2013379302
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_57: -688261806
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_58: 2042481075
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_59: -72940640
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_6: 2129099048
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_60: 620157968
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_61: 839896091
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_62: -1457877968
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_63: 1072227847
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_64: -180603266
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_65: 1545268269
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_66: 969295257
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_67: -63807488
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_68: -1306436523
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_69: 398715034
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_7: -759827319
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_70: -380228323
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_71: 1123027827
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_72: -110593918
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_73: 1900078375
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_74: -1594624285
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_75: 1758285621
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_76: 550531244
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_77: 79825445
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_78: -1602245370
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_79: 1355729324
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_8: -723244873
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_80: 1591997111
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_81: 1022697750
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_82: -1375954615
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_83: -1540477389
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_85: -2126848237
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_86: 791081237
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_87: 1916148574
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_88: -1497796279
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_89: -719464759
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_9: -1993884170
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_90: -1242730340
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_91: 886202140
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_92: 1577492062
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_93: -383808847
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_94: 1644152507
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_95: 1196228426
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_96: -681501825
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_97: 1802755450
+      pokemon_black_boy_protagonist_in_gen__3_style__by_richardpt_df959aj_98: 2126231727
+      walkdown1: -1268016656
+      walkdown2: 2077713656
+      walkdown3: 1960118458
+      walkleft1: 1230782882
+      walkleft2: 645823774
+      walkleft3: -374202272
+      walkright1: 402783280
+      walkright2: 1605459737
+      walkright3: 1741260253
+      walkup1: 1984603765
+      walkup2: 2143229672
+      walkup3: 436731394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

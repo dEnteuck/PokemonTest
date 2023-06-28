@@ -1,0 +1,1485 @@
+fileFormatVersion: 2
+guid: c6d43fd0375b73b4cbfbac8d29740543
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1390
+        width: 252
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617c9c4828aabd443a55ca9509a5e577
+      internalID: 1460434195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1390
+        width: 252
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d24cf21486941c4e95be7823fad7b18
+      internalID: -400915450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_2
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1390
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ed4bb0ec01a1a4a8f89a04e975dd8f
+      internalID: -70045212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_3
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1390
+        width: 250
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840340fd861267e4c94206668a52ab7a
+      internalID: 226498564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_4
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1390
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f849538aff64afe4682e0854ea27182d
+      internalID: 1054522028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_5
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1390
+        width: 252
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44521b26c0fcf234b9a52c764680907f
+      internalID: 2147479619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_6
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1390
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f672e22ac8a94b34ba7aeed7c59628f7
+      internalID: -1562144652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_7
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 1390
+        width: 249
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c992f08fd9b32c468e029398ebecd12
+      internalID: 673205117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1191
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fe5343918083446ad53bf142f9c2dd
+      internalID: -215313936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_9
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1191
+        width: 252
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b12d3bf03827943bebdc2b3c6adb9b
+      internalID: 1705307429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_10
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1191
+        width: 251
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a990956b1fee9f47b4db5ce1754ea54
+      internalID: -1357718246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_11
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1191
+        width: 250
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dcd149576f3d2489e777df71d40f60
+      internalID: -2054100035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_12
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1191
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a810ee458c7ff4ca0d9b3a99b12116
+      internalID: 1788450736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_13
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1191
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aad6b5554a38641bddf8f13cff08a0
+      internalID: 983322961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_14
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1234
+        width: 250
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7031e10b5dcf084bba7584da648a06a
+      internalID: 364623497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_15
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 1191
+        width: 249
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a86b1457c7d094a853f616cc645956
+      internalID: -1482581213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 992
+        width: 252
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b3488ec3ae6847bcd43fb76272476
+      internalID: -621593269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_17
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 992
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeb29661e9dd4b42a6850ca52c6f542
+      internalID: 401781428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_18
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 992
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa75442149b85a94dbeafb6276ff5dd7
+      internalID: 1812462425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_19
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 992
+        width: 250
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f72c16b97ae864ebe44f90e8ad3515
+      internalID: 1354922062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_20
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 992
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42572b8bfe850eb459ce6109936dadf1
+      internalID: -932908069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_21
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 992
+        width: 250
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ae0d086f9d712448c2dffa5cccf65e
+      internalID: -1168815698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_22
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 998
+        width: 251
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7943bbebb20fc24988662003df3231f
+      internalID: -692879618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_23
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 992
+        width: 249
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01175feffe946644a61266cf5d71e8a
+      internalID: -604125097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 793
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a57cb566a2f5ae48b846f6d39fcccac
+      internalID: 440891586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_25
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 793
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a055c603764c5c48be297d0cfc4a82b
+      internalID: -131501483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_26
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 793
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae580a0b8b73fd46b43029e9368c049
+      internalID: 1615819416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_27
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 793
+        width: 250
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924f52c3762a908428da9dbdfd8aa9ad
+      internalID: -1905138697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_28
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 794
+        width: 251
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1db8091ffec8de4e9d0b4c3bc12e785
+      internalID: 478427441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_29
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 799
+        width: 251
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1e3880b756c114a9462c55603c62a0
+      internalID: 1298970920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_30
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 799
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66407fa71ef1cda45b5d8b2fdcfc8761
+      internalID: -358333709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_31
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 793
+        width: 249
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcf0de3011cd724fb39ee6095428b5c
+      internalID: -701767627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 251
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e68504f1988c54c968901aacaf73c8
+      internalID: 1750301438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_33
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 600
+        width: 251
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f9c5944f9cb4149a7fa693458e2a58
+      internalID: -415609631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_34
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 600
+        width: 251
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a2a829ee63a8e4a8b32b6f581ba172
+      internalID: -814458058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_35
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 600
+        width: 251
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4cad5ab0731e148b2538036964025c
+      internalID: -1705382475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_36
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 637
+        width: 251
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9f2a143927e2344a5dba54d2d2336e
+      internalID: 263933363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_37
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 600
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc863c5d813f1874298818054c043c5d
+      internalID: -1888368857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_38
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 600
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc04396ba77ea04f98cb3080e494bd8
+      internalID: 23733045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261c3bb572e2e934890fbb65392ab764
+      internalID: 1772214718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_41
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 401
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043c76986db3fad42a40ecd066406382
+      internalID: -2130047382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_42
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 401
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05781b4e4f196bf489b912777d967ca2
+      internalID: 1950392139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_43
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 401
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc294a8aca96b694f8f6717c32d4d97d
+      internalID: -1238081771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_44
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 401
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e6b56bd1533eb4d9b0a5440a05f3f0
+      internalID: 145306392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_45
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 401
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac98291b168c7a94f932bfab4ff7a83d
+      internalID: 1479677452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_46
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 400
+        width: 251
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe9f913bcda1d541994a50d99b4b46b
+      internalID: -1924987531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_47
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 398
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc367de5a1df264481beb558bc56e61
+      internalID: 55363068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e358fc3c8a6e27347aff79d955e20c0c
+      internalID: 2022139528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_49
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 202
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896dd4fb1ecd2fd41a2ea6feade9cbaa
+      internalID: -144851570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_50
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 202
+        width: 252
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d9cd88a0229e746bba2de3bfa70bfb
+      internalID: -1633070320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_51
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 202
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8583f4535f5d24785923a3b6953572
+      internalID: 1275379324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_52
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 202
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b4a490012f5bf4f83b2bdb05d4884b
+      internalID: -1461365207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_53
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 202
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32903b33e4c3db2498ba84db393417ca
+      internalID: -941329185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_54
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 202
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424cc95952835e34992588e36ad35f66
+      internalID: 1677779058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_55
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 199
+        width: 250
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290ab5b22ea3bb64980eb3b8a4d46f84
+      internalID: -870181593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 250
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3d41b6d56a53b4a967ba2d9a621a42
+      internalID: 81453171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_57
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 47
+        width: 250
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7639e898b19e5f247991fa34a33a40d8
+      internalID: -1156069647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_58
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 46
+        width: 250
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18009db00ee37fa49ab0d92cfb694aea
+      internalID: -166639329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_59
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 3
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93b1a8698d9ba144925b530c7fd0a16
+      internalID: -903411086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_60
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 3
+        width: 249
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595cca02a9c1be148a9fd867ed2f7e75
+      internalID: 991519909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_63
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 0
+        width: 251
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3990607abbf61ff41a39b2bf97705d19
+      internalID: -454492256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_0: 1460434195
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_1: -400915450
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_10: -1357718246
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_11: -2054100035
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_12: 1788450736
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_13: 983322961
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_14: 364623497
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_15: -1482581213
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_16: -621593269
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_17: 401781428
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_18: 1812462425
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_19: 1354922062
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_2: -70045212
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_20: -932908069
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_21: -1168815698
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_22: -692879618
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_23: -604125097
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_24: 440891586
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_25: -131501483
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_26: 1615819416
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_27: -1905138697
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_28: 478427441
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_29: 1298970920
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_3: 226498564
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_30: -358333709
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_31: -701767627
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_32: 1750301438
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_33: -415609631
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_34: -814458058
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_35: -1705382475
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_36: 263933363
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_37: -1888368857
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_38: 23733045
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_39: -1187268065
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_4: 1054522028
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_40: 1772214718
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_41: -2130047382
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_42: 1950392139
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_43: -1238081771
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_44: 145306392
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_45: 1479677452
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_46: -1924987531
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_47: 55363068
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_48: 2022139528
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_49: -144851570
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_5: 2147479619
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_50: -1633070320
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_51: 1275379324
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_52: -1461365207
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_53: -941329185
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_54: 1677779058
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_55: -870181593
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_56: 81453171
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_57: -1156069647
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_58: -166639329
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_59: -903411086
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_6: -1562144652
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_60: 991519909
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_61: 567630327
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_62: 114402217
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_63: -454492256
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_7: 673205117
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_8: -215313936
+      pokemon_b2w2_battle_backgrounds_by_snivy101_d5acfhd_9: 1705307429
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
