@@ -113,20 +113,50 @@ public class LearnableMove
 
 public enum PokemonType
 {
-    None,
-    Normal,
-    Fire,
-    Water,
-    Electric,
-    Grass,
-    Ice,
-    Fighting,
-    Poison,
-    Ground,
-    Flying,
-    Psychic,
-    Bug,
-    Rock,
-    Ghost,
-    Dragon
+    None, Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost, Steel, Fire, Water, Grass, Electric, Psychic, Ice, Dragon, Dark, Fairy
+}
+
+public enum Stat
+{
+    Attack, Defense, SpAttack, SpDefense, Speed, 
+    
+    // These 2 are not actual stats, they're used to boost the moveAccuracy
+    Accuracy, Evasion
+}
+
+public class TypeChart
+{
+    static float[][] chart =
+    {
+        //                     NOR   FIG   FLY   POI   GRO   ROC   BUG   GOS   STE   FIR   WAT   GRA   ELE   PSY   ICE   DRA   DAR   FAI
+        /*NOR*/ new float [] {  1f,   1f,   1f,   1f,   1f, 0.5f,   1f,   0f, 0.5f,   1f,   1f,   1f,   1f,   1f,   1f,   1f,   1f,   1f },
+        /*FIG*/ new float [] {  2f,   1f, 0.5f, 0.5f,   1f,   2f, 0.5f,   0f,   2f,   1f,   1f,   1f,   1f, 0.5f,   2f,   1f,   2f, 0.5f },
+        /*FLY*/ new float [] {  1f,   2f,   1f,   1f,   1f, 0.5f,   2f,   1f, 0.5f,   1f,   1f,   2f, 0.5f,   1f,   1f,   1f,   1f,   1f },
+        /*POI*/ new float [] {  1f,   1f,   1f, 0.5f, 0,5f, 0.5f,   1f, 0.5f,   0f,   1f,   1f,   2f,   1f,   1f,   1f,   1f,   1f,   2f },
+        /*GRO*/ new float [] {  1f,   1f,   0f,   2f,   1f,   2f, 0.5f,   1f,   2f,   2f,   1f, 0.5f,   2f,   1f,   1f,   1f,   1f,   1f },
+        /*ROC*/ new float [] {  1f, 0.5f,   2f,   1f, 0.5f,   1f,   2f,   1f, 0.5f,   2f,   1f,   1f,   1f,   1f,   2f,   1f,   1f,   1f },
+        /*BUG*/ new float [] {  1f, 0.5f, 0.5f, 0.5f,   1f,   1f,   1f, 0.5f, 0.5f, 0.5f,   1f,   2f,   1f,   2f,   1f,   1f,   2f, 0.5f },
+        /*GOS*/ new float [] {  0f,   1f,   1f,   1f,   1f,   1f,   1f,   2f,   1f,   1f,   1f,   1f,   1f,   2f,   1f,   1f, 0.5f,   1f },
+        /*STE*/ new float [] {  1f,   1f,   1f,   1f,   1f,   2f,   1f,   1f, 0.5f, 0.5f, 0.5f,   1f, 0.5f,   1f,   2f,   1f,   1f,   2f },
+        /*FIR*/ new float [] {  1f,   1f,   1f,   1f,   1f, 0.5f,   2f,   1f,   2f, 0.5f, 0.5f,   2f,   1f,   1f,   2f, 0.5f,   1f,   1f },
+        /*WAT*/ new float [] {  1f,   1f,   1f,   1f,   2f,   2f,   1f,   1f,   1f,   2f, 0.5f, 0.5f,   1f,   1f,   1f, 0.5f,   1f,   1f },
+        /*GRA*/ new float [] {  1f,   1f, 0.5f, 0.5f,   2f,   2f, 0.5f,   1f, 0.5f, 0.5f,   2f, 0.5f,   1f,   1f,   1f, 0.5f,   1f,   1f },
+        /*ELE*/ new float [] {  1f,   1f,   2f,   1f,   0f,   1f,   1f,   1f,   1f,   1f,   2f, 0.5f, 0.5f,   1f,   1f, 0.5f,   1f,   1f },
+        /*PSY*/ new float [] {  1f,   2f,   1f,   2f,   1f,   1f,   1f,   1f, 0.5f,   1f,   1f,   1f,   1f, 0.5f,   1f,   1f,   0f,   1f },
+        /*ICE*/ new float [] {  1f,   1f,   2f,   1f,   2f,   1f,   1f,   1f, 0.5f, 0.5f, 0.5f,   2f,   1f,   1f, 0.5f,   2f,   1f,   1f },
+        /*DRA*/ new float [] {  1f,   1f,   1f,   1f,   1f,   1f,   1f,   1f, 0.5f,   1f,   1f,   1f,   1f,   1f,   1f,   2f,   1f,   0f },
+        /*DAR*/ new float [] {  1f, 0.5f,   1f,   1f,   1f,   1f,   1f,   2f,   1f,   1f,   1f,   1f,   1f,   2f,   1f,   1f, 0.5f, 0.5f },
+        /*FAI*/ new float [] {  1f,   2f,   1f, 0.5f,   1f,   1f,   1f,   1f, 0.5f, 0.5f,   1f,   1f,   1f,   1f,   1f,   2f,   2f,   1f }
+    };
+
+    public static float GetEffectiveness(PokemonType attackType, PokemonType defenseType)
+    {
+        if (attackType == PokemonType.None || defenseType == PokemonType.None)
+            return 1;
+
+        int row = (int)attackType - 1;
+        int col = (int)defenseType - 1;
+
+        return chart[row][col];
+    }
 }

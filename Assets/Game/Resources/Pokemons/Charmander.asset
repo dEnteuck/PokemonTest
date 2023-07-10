@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   description: 
-  fontSprite: {fileID: 21300000, guid: 4c6b3640de7b2164ea4b060dc498eaa9, type: 3}
-  backSprite: {fileID: 21300000, guid: db3dd39f6982e3b4e9eefa189bbc184f, type: 3}
-  type1: 2
-  type2: 15
+  fontSprite: {fileID: 21300000, guid: 1ae3f4469b9dc9449930d1a3dbbb1411, type: 3}
+  backSprite: {fileID: 21300000, guid: 8e8fbeb0507bd08439fdf2087780808e, type: 3}
+  type1: 10
+  type2: 3
   maxHp: 39
   attack: 52
   defense: 43
@@ -25,7 +25,7 @@ MonoBehaviour:
   spDefense: 50
   speed: 65
   learnableMoves:
-  - moveBase: {fileID: 11400000, guid: 4884258f7cb7d614c91ee072b5fc0381, type: 2}
+  - moveBase: {fileID: 11400000, guid: e3fe51cd4c0eacc45b4c3f33fd66e03f, type: 2}
     level: 1
   - moveBase: {fileID: 11400000, guid: c1d1cc7fe3f331848997d86cadbcf39d, type: 2}
     level: 4

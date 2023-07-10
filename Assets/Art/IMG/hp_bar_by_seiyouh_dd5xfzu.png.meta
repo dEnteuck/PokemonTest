@@ -121,7 +121,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44508ee2e78f270409cf675efb1dcfd8
+      internalID: 1939656021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 112
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972532018037ca54f88548f577a676b6
+      internalID: 303830905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 55
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a83eed57be4c99459db8a892b9b1f0f
+      internalID: -1072014201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 55
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b028ad102fcfc2544a59a0582b24ec2b
+      internalID: 6649067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 55
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737bbf1c332349b4097b9e54701c9fe7
+      internalID: 2003142895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 55
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a27a11c470eb144abd42f885bcbac06
+      internalID: 772965757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 55
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71266f6bfd7c08e4a8fd1435075a14d1
+      internalID: -270247450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc222b6631df8144921f82bf1805372
+      internalID: 1426583987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba614ec8cefd8fc4a9741bc0399ce065
+      internalID: -596353846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 68
+        width: 7
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803d8bbbee36d814e9d7c90d7a4b003a
+      internalID: 1570558647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 65
+        width: 7
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797567e6417af00438c0fb8cfa05e737
+      internalID: 782669279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550bf967e4ad5514c87959b442231758
+      internalID: 519974455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4777655ac295184b9d8560c4ae96edb
+      internalID: -255670811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hp_bar_by_seiyouh_dd5xfzu_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 9
+        width: 110
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859b1b1fff3222848baa6e15ed022741
+      internalID: -1396880935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +426,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hp_bar_by_seiyouh_dd5xfzu_0: 1939656021
+      hp_bar_by_seiyouh_dd5xfzu_1: 303830905
+      hp_bar_by_seiyouh_dd5xfzu_10: 782669279
+      hp_bar_by_seiyouh_dd5xfzu_11: 519974455
+      hp_bar_by_seiyouh_dd5xfzu_12: -255670811
+      hp_bar_by_seiyouh_dd5xfzu_13: -1396880935
+      hp_bar_by_seiyouh_dd5xfzu_2: -1072014201
+      hp_bar_by_seiyouh_dd5xfzu_3: 6649067
+      hp_bar_by_seiyouh_dd5xfzu_4: 2003142895
+      hp_bar_by_seiyouh_dd5xfzu_5: 772965757
+      hp_bar_by_seiyouh_dd5xfzu_6: -270247450
+      hp_bar_by_seiyouh_dd5xfzu_7: 1426583987
+      hp_bar_by_seiyouh_dd5xfzu_8: -596353846
+      hp_bar_by_seiyouh_dd5xfzu_9: 1570558647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
