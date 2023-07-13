@@ -2014,8 +2014,8 @@ GameObject:
   - component: {fileID: 743821545}
   - component: {fileID: 743821544}
   - component: {fileID: 743821543}
-  - component: {fileID: 743821546}
   - component: {fileID: 743821547}
+  - component: {fileID: 743821548}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2113,27 +2113,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &743821546
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743821542}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3655bbf57e3314b4bb5dd88eec5552dd, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &743821547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2157,6 +2136,35 @@ MonoBehaviour:
     level: 5
   - _base: {fileID: 11400000, guid: 5aaa361a75a49bc4abb4255aa19a26ea, type: 2}
     level: 6
+--- !u!114 &743821548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743821542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26ee280afe8b2db4fa5983b3f491e537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkDownSprites:
+  - {fileID: -1268016656, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 2077713656, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 1960118458, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  walkUpSprites:
+  - {fileID: 1984603765, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 2143229672, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 436731394, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  walkRightSprites:
+  - {fileID: 402783280, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 1605459737, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 1741260253, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  walkLeftSprites:
+  - {fileID: -374202272, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 645823774, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 1230782882, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  spriteRenderer: {fileID: 0}
 --- !u!224 &835617448 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6584024609498547175, guid: 4bb9600634f8ddb48b9aef4c9b7bcb89, type: 3}
@@ -16615,6 +16623,11 @@ MonoBehaviour:
     lines:
     - Hi, have you tried walking through the long grass
     - you can find lots of cool pokemon in there
+  sprites:
+  - {fileID: -1464879657, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: 2014136095, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: 1495047168, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: 1456723540, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
 --- !u!1 &1926828237
 GameObject:
   m_ObjectHideFlags: 0
