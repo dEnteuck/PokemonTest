@@ -9,7 +9,7 @@ public class CharacterAnimator : MonoBehaviour
     [SerializeField] List<Sprite> walkRightSprites;
     [SerializeField] List<Sprite> walkLeftSprites;
 
-  
+
 
 
     public float MoveX { get; set; }
@@ -26,6 +26,7 @@ public class CharacterAnimator : MonoBehaviour
     public SpriteAnimator currentAnim;
 
     public SpriteRenderer spriteRenderer;
+    bool wasPreviouslyMoving;
 
     private void Start()
     {
@@ -42,19 +43,21 @@ public class CharacterAnimator : MonoBehaviour
         var preAnim = currentAnim;
         if (MoveX == 1)
             currentAnim = walkRightAnim;
-        else if(MoveX == -1)
+        else if (MoveX == -1)
             currentAnim = walkLeftAnim;
         if (MoveY == 1)
             currentAnim = walkUpAnim;
         else if (MoveY == -1)
             currentAnim = walkDownAnim;
 
-        if(currentAnim != preAnim)
+        if (currentAnim != preAnim || IsMoving != wasPreviouslyMoving)
             currentAnim.Start();
 
         if(IsMoving)
             currentAnim.HandleUpdate();
         else
             spriteRenderer.sprite = currentAnim.Frames[0];
+
+        wasPreviouslyMoving = IsMoving;
     }
 }
