@@ -2016,6 +2016,7 @@ GameObject:
   - component: {fileID: 743821543}
   - component: {fileID: 743821547}
   - component: {fileID: 743821548}
+  - component: {fileID: 743821549}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2035,16 +2036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f8a9158b6006a74ab280c48296ba5bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  solidObjectLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  interactableLayer:
-    serializedVersion: 2
-    m_Bits: 1024
-  grassLayer:
-    serializedVersion: 2
-    m_Bits: 512
 --- !u!212 &743821544
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2149,22 +2140,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkDownSprites:
-  - {fileID: -1268016656, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   - {fileID: 2077713656, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: -1268016656, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   - {fileID: 1960118458, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   walkUpSprites:
-  - {fileID: 1984603765, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   - {fileID: 2143229672, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 1984603765, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   - {fileID: 436731394, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   walkRightSprites:
-  - {fileID: 402783280, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   - {fileID: 1605459737, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: 402783280, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   - {fileID: 1741260253, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   walkLeftSprites:
-  - {fileID: -374202272, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   - {fileID: 645823774, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   - {fileID: 1230782882, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
+  - {fileID: -374202272, guid: fc377502ed3008c458a74eb1a12c6efd, type: 3}
   spriteRenderer: {fileID: 0}
+--- !u!114 &743821549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743821542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1daae998eb8f859499088358d7454548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!224 &835617448 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6584024609498547175, guid: 4bb9600634f8ddb48b9aef4c9b7bcb89, type: 3}
@@ -16396,6 +16400,7 @@ GameObject:
   - component: {fileID: 1899833459}
   - component: {fileID: 1899833458}
   - component: {fileID: 1899833460}
+  - component: {fileID: 1899833461}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -16448,6 +16453,27 @@ MonoBehaviour:
   dialogBox: {fileID: 1742363218}
   dialogText: {fileID: 1926828239}
   lettersPerSecond: 45
+--- !u!114 &1899833461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899833457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac1c0bd9ecdf924c82ce9e972fb28e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  solidObjectLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  grassLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &1919039559
 GameObject:
   m_ObjectHideFlags: 0
@@ -16461,6 +16487,8 @@ GameObject:
   - component: {fileID: 1919039563}
   - component: {fileID: 1919039562}
   - component: {fileID: 1919039564}
+  - component: {fileID: 1919039566}
+  - component: {fileID: 1919039565}
   m_Layer: 10
   m_Name: NPC
   m_TagString: Untagged
@@ -16623,11 +16651,58 @@ MonoBehaviour:
     lines:
     - Hi, have you tried walking through the long grass
     - you can find lots of cool pokemon in there
-  sprites:
+  movementPattern:
+  - {x: 2, y: 0}
+  - {x: 0, y: -2}
+  - {x: -2, y: 0}
+  - {x: 0, y: 2}
+  timeBetweenPattern: 3
+--- !u!114 &1919039565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919039559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26ee280afe8b2db4fa5983b3f491e537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkDownSprites:
   - {fileID: -1464879657, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
   - {fileID: 2014136095, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
   - {fileID: 1495047168, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
   - {fileID: 1456723540, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  walkUpSprites:
+  - {fileID: 1576072799, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: 2084665248, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: -735731595, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: -263724396, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  walkRightSprites:
+  - {fileID: 1380400790, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: -2102883518, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: 777483475, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: 436804017, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  walkLeftSprites:
+  - {fileID: 1703201343, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: 640732871, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: 1954172819, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  - {fileID: -1555142749, guid: cbe73c19660cd1a49a2cdfc101ca830c, type: 3}
+  spriteRenderer: {fileID: 0}
+--- !u!114 &1919039566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919039559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1daae998eb8f859499088358d7454548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!1 &1926828237
 GameObject:
   m_ObjectHideFlags: 0
