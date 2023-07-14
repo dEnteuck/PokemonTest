@@ -16,8 +16,8 @@ TagManager:
   - SolidProjects
   - LongGrass
   - Interactable
-  - 
-  - 
+  - Player
+  - FovLayer
   - 
   - 
   - 
