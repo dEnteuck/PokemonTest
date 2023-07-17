@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,6 +16,7 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] PartyScreen partyScreen;
     [SerializeField] Image playerImage;
     [SerializeField] Image trainerImage;
+    [SerializeField] GameObject pokeballSprite;
 
     public event Action<bool> OnBattleOver;
 
@@ -33,10 +35,13 @@ public class BattleSystem : MonoBehaviour
     PlayerController player;
     TrainerController trainer;
 
+    int escapeAttempts;
+
     public void StartBattle(PokemonParty playerParty, Pokemon wildPokemon)
     {
         this.playerParty = playerParty;
         this.wildPokemon = wildPokemon;
+        player = playerParty.GetComponent<PlayerController>();
         StartCoroutine(SetupBattle());
     }
 
@@ -91,8 +96,9 @@ public class BattleSystem : MonoBehaviour
             yield return dialogBox.TypeDialog($" Go{playerPokemon.Base.Name}!");
             dialogBox.SetMoveNames(playerUnit.Pokemon.Moves);
         }
-       
 
+
+        escapeAttempts = 0;
         partyScreen.Init();
         ActionSelection();
     }
@@ -179,6 +185,15 @@ public class BattleSystem : MonoBehaviour
                 var selectedMember = playerParty.Pokemons[currentMember];
                 state = BattleState.Busy;
                 yield return SwitchPokemon(selectedMember);
+            }
+            else if(playerAction == BattleAction.UseItem)
+            {
+                dialogBox.EnableActionSelector(false);
+                yield return ThrowPokeball();
+            }
+            else if (playerAction == BattleAction.Run)
+            {
+                yield return TryToEscape();
             }
 
             // Enemy Turn
@@ -413,17 +428,20 @@ public class BattleSystem : MonoBehaviour
             }
             else if (currentAction == 1)
             {
-                //Run
+                //Bag
+                StartCoroutine(RunTurns(BattleAction.UseItem));
             }
             else if (currentAction == 2)
             {
-                //Bag
+                //Pokemon
+                prevState = state;
+                OpenPartyScreen(); 
             }
             else if (currentAction == 3)
             {
-                //Poke
-                prevState = state;
-                OpenPartyScreen();
+                //Run
+                StartCoroutine(RunTurns(BattleAction.Run));
+
             }
         }
     }
@@ -575,4 +593,121 @@ public class BattleSystem : MonoBehaviour
 
         state = BattleState.RunningTurn;
     }
+
+
+    IEnumerator ThrowPokeball()
+    {
+        state = BattleState.Busy;
+
+        if(isTrainerBattle)
+        {
+            yield return dialogBox.TypeDialog($"You can't steal the trainers pokemon!");
+            state = BattleState.RunningTurn;
+            yield break;
+        }    
+
+        yield return dialogBox.TypeDialog($"{player.Name} used POKEBALL!");
+
+        var pokeballObj = Instantiate(pokeballSprite, playerUnit.transform.position - new Vector3(2, 0), Quaternion.identity);
+        var pokeball = pokeballObj.GetComponent<SpriteRenderer>();
+
+        yield return pokeball.transform.DOJump(enemyUnit.transform.position + new Vector3(0, 2), 2f, 1, 1f).WaitForCompletion();
+        yield return enemyUnit.PlayCaptureAnimation();
+        yield return pokeball.transform.DOMoveY(enemyUnit.transform.position.y - 1.3f, 0.5f).WaitForCompletion();
+
+        int shakeCount = TryToCatchPokemon(enemyUnit.Pokemon);
+
+        for (int i = 0; i < Mathf.Min(shakeCount, 3); ++i)
+        {
+            yield return new WaitForSeconds(0.5f);
+            yield return pokeball.transform.DOPunchRotation(new Vector3(0, 0, 10f), 0.8f).WaitForCompletion();
+
+        }    
+
+        if(shakeCount == 4)
+        {
+            yield return dialogBox.TypeDialog($"{enemyUnit.Pokemon.Base.Name} was caught");
+            yield return pokeball.DOFade(0, 1.5f).WaitForCompletion();
+
+            playerParty.AddPokemon(enemyUnit.Pokemon);
+            yield return dialogBox.TypeDialog($"{enemyUnit.Pokemon.Base.Name} has been added to your party");
+
+            Destroy(pokeball);
+            BattleOver(true);
+        }
+        else
+        {
+            yield return new WaitForSeconds(1f);
+            pokeball.DOFade(0, 0.2f);
+            yield return enemyUnit.PlayBreakOutAnimation();
+
+            if(shakeCount < 2)          
+                yield return dialogBox.TypeDialog($"{enemyUnit.Pokemon.Base.Name} broke free");
+            else
+                yield return dialogBox.TypeDialog($"Almost caught it");
+
+            Destroy(pokeball);
+            state = BattleState.RunningTurn;
+
+
+
+
+        }
+    }   
+    
+    int TryToCatchPokemon(Pokemon pokemon)
+    {
+        float a = (3 * pokemon.MaxHp - 2 * pokemon.HP) * pokemon.Base.CatchRate * ConditionsDB.GetStatusBonus(pokemon.Status) / (3 * pokemon.MaxHp);
+
+        if (a >= 255)
+            return 4;
+        float b = 1048560 / Mathf.Sqrt(Mathf.Sqrt(16711680 / a));
+
+        int shakeCount = 0;
+        while (shakeCount < 4)
+        {
+            if (UnityEngine.Random.Range(0, 65535) >= b)
+                break;
+
+            ++shakeCount;
+        }
+        return shakeCount;
+    }    
+
+    IEnumerator TryToEscape()
+    {
+        if(isTrainerBattle)
+        {
+            yield return dialogBox.TypeDialog($"You can't run from trainer battles!");
+            state = BattleState.RunningTurn;
+            yield break; 
+        }
+
+        ++escapeAttempts;
+
+        int playerSpeed = playerUnit.Pokemon.Speed;
+        int enemySpeed = enemyUnit.Pokemon.Speed;
+
+        if(enemySpeed < playerSpeed)
+        {
+            yield return dialogBox.TypeDialog($"Ran away safely!");
+            BattleOver(true);
+        }
+        else
+        {
+            float f = (playerSpeed * 128) / enemySpeed + 30 * escapeAttempts;
+            f = f % 256;
+
+            if(UnityEngine.Random.Range(0,256)<f)
+            {
+                yield return dialogBox.TypeDialog($"Ran away safely!");
+                BattleOver(true);
+            }
+            else
+            {
+                yield return dialogBox.TypeDialog($"Can't escape");
+                state = BattleState.RunningTurn;
+            }
+        }
+    }    
 }
