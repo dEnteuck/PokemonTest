@@ -120,7 +120,15 @@ public class Pokemon
             Debug.Log($"{stat} has been bossted to {StatBoosts[stat]}");
         }
     }
-
+    public bool CheckForLevelUp()
+    {
+        if(Exp > Base.GetExpForLevel(level + 1))
+        {
+            ++level;
+            return true;
+        }
+        return false;
+    }
     public int Attack
     {
         get { return GetStat(Stat.Attack); }
